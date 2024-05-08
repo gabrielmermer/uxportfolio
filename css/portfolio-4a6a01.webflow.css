@@ -1607,6 +1607,16 @@ a {
   display: none;
 }
 
+.text-block-19-copy {
+  width: 30px;
+  padding-top: 0;
+  padding-left: 0;
+  font-family: "Font Awesome 5 Pro 400", sans-serif;
+  font-size: 32px;
+  line-height: 32px;
+  display: block;
+}
+
 @media screen and (min-width: 1920px) {
   .heading-2 {
     font-size: 72px;
@@ -1755,6 +1765,12 @@ a {
 
   .flex-block-11 {
     max-width: 180px;
+  }
+
+  .text-block-19-copy {
+    width: 40px;
+    font-size: 40px;
+    line-height: 40px;
   }
 }
 
@@ -2107,6 +2123,20 @@ a {
     text-decoration: none;
     display: flex;
   }
+
+  .mobile-home {
+    color: var(--grey-5);
+    max-width: 60px;
+    margin-right: auto;
+    font-family: Lexend, sans-serif;
+    line-height: 30px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .text-block-19-copy {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2369,6 +2399,15 @@ a {
     font-size: 32px;
   }
 
+  .link-block-2 {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: block;
+  }
+
   .link-block-2.w--current {
     width: auto;
   }
@@ -2406,6 +2445,7 @@ a {
     font-size: 14px;
     line-height: 30px;
     text-decoration: none;
+    display: block;
   }
 
   .mobile-home.w--current {
@@ -2414,6 +2454,13 @@ a {
     line-height: 20px;
     text-decoration: none;
     display: block;
+  }
+
+  .text-block-19-copy {
+    width: 100%;
+    font-family: "Font Awesome 5 Pro 400", sans-serif;
+    font-weight: 400;
+    display: none;
   }
 }
 
