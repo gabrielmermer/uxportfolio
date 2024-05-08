@@ -327,6 +327,7 @@ a {
 .button-secondary {
   border: 1px solid #000;
   border-radius: 32px;
+  flex-flow: row;
   align-items: center;
   margin-left: 10px;
   padding: 14px 32px;
@@ -2116,6 +2117,14 @@ a {
     padding: 10px 16px;
   }
 
+  .text-block-4 {
+    padding-left: 0;
+  }
+
+  .text-block-5 {
+    display: none;
+  }
+
   .button-secondary {
     justify-content: center;
     align-items: center;
@@ -2125,6 +2134,7 @@ a {
 
   .text-block-6 {
     font-family: "Font Awesome 5 Pro Solid 900", sans-serif;
+    display: none;
   }
 
   .text-block-7 {
@@ -2143,6 +2153,14 @@ a {
   .div-block-22 {
     margin-top: 16px;
     margin-left: 16px;
+  }
+
+  .text-block-17.icon {
+    display: none;
+  }
+
+  .text-block-17.email {
+    padding-left: 0;
   }
 
   .footer {
@@ -2164,6 +2182,7 @@ a {
     margin-top: -70px;
     padding-top: 0;
     padding-left: 32px;
+    display: flex;
   }
 
   .div-block-39 {
@@ -2256,11 +2275,11 @@ a {
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 200%;
     margin-left: 0;
     padding: 8px 12px;
     text-decoration: none;
-    display: flex;
+    display: block;
   }
 
   .div-block-50 {
@@ -2278,9 +2297,10 @@ a {
   }
 
   .div-block-39-copy {
+    flex-flow: row;
     width: 150px;
     margin-top: 12px;
-    display: flex;
+    display: block;
   }
 
   .getin_desktop {
@@ -2529,7 +2549,7 @@ a {
 @font-face {
   font-family: 'Font Awesome 5 Pro Solid 900';
   src: url('../fonts/Font-Awesome-5-Pro-Solid-900.otf') format('opentype');
-  font-weight: 400;
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
