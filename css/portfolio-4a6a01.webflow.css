@@ -2303,6 +2303,14 @@ a {
     display: block;
   }
 
+  .text-block-17-copy.email {
+    padding-left: 0;
+  }
+
+  .text-block-17-copy.icon {
+    display: none;
+  }
+
   .getin_desktop {
     height: 250px;
   }
