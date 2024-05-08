@@ -1603,6 +1603,10 @@ a {
   right: 0%;
 }
 
+.mobile-home, .mobile-home.w--current {
+  display: none;
+}
+
 @media screen and (min-width: 1920px) {
   .heading-2 {
     font-size: 72px;
