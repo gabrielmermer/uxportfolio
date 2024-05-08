@@ -17,9 +17,9 @@
   --indigo-9: #bed0f7;
   --indigo-8: #98aeeb;
   --grey-3: #3e4c59;
+  --grey-5: #616e7c;
   --white: white;
   --indigo-7: #7b93db;
-  --grey-5: #616e7c;
   --grey-6: #7b8794;
   --grey-7: #9aa5b1;
 }
@@ -2350,12 +2350,23 @@ a {
     display: flex;
   }
 
+  .text-block-19 {
+    width: 100%;
+    font-family: "Font Awesome 5 Pro 400", sans-serif;
+    font-weight: 400;
+    display: none;
+  }
+
   .div-block-52 {
     padding-left: 20px;
   }
 
   .title {
     font-size: 32px;
+  }
+
+  .link-block-2.w--current {
+    width: auto;
   }
 
   .navbar-article {
@@ -2382,6 +2393,23 @@ a {
     height: 100%;
     text-decoration: none;
     display: flex;
+  }
+
+  .mobile-home {
+    color: var(--grey-5);
+    width: 60px;
+    font-family: Lexend, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+  }
+
+  .mobile-home.w--current {
+    color: var(--grey-4);
+    width: 58px;
+    line-height: 20px;
+    text-decoration: none;
+    display: block;
   }
 }
 
