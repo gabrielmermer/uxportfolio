@@ -2167,7 +2167,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 8px 12px;
-    display: block;
+    display: none;
   }
 
   .text-block-6 {
