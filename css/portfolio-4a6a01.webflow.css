@@ -347,13 +347,13 @@ a {
   text-align: center;
   align-items: flex-start;
   font-family: "Font Awesome 5 Pro Solid 900", sans-serif;
-  display: block;
+  display: none;
   position: relative;
 }
 
 .text-block-7 {
   color: var(--grey-1);
-  margin-left: 10px;
+  margin-left: 0;
   font-family: Lexend, sans-serif;
 }
 
